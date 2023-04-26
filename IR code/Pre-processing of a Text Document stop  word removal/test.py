@@ -1,4 +1,6 @@
 import nltk 
+#py -m nltk.downloader stopwords
+#py -m nltk.downloader punkt
 from nltk.corpus import stopwords
 set(stopwords.words('english'))
 from nltk.corpus import stopwords 
